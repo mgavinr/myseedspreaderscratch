@@ -34,11 +34,19 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="327dp"
+            android:layout_height="421dp"
             android:layout_weight="0"
             android:visibility="visible"
             app:srcCompat="@drawable/hay" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="act2"
+            android:text="Button" />
 
 
     </LinearLayout>
